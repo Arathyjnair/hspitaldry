@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/vwpt"
+            android:icon="@drawable/patticon"
+            android:title="View patient by id "/>
+
+
+    </group>
+
+    <item android:title="View">
+        <menu>
+            <item
+                android:id="@+id/vwprescibedpat"
+                android:icon="@drawable/ic_book_black_24dp"
+                android:title="View prescribed patient" />
+            <item
+                android:id="@+id/sndd"
+                android:icon="@drawable/ic_send_black_24dp"
+                android:title="Send" />
+        </menu>
+    </item>
+
+
+</menu>

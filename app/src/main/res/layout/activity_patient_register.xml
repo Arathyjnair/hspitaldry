@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/dctrbg"
+    android:orientation="vertical"
+    tools:context=".patientRegister">
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="120dp"
+        android:background="@drawable/pat"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="REGISTER"
+        android:textStyle="italic"
+        android:textSize="30dp"
+        android:textColor="#6415d3"
+        android:layout_marginTop="130dp"
+        android:layout_marginLeft="100dp"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Name"
+        android:layout_marginTop="189dp"
+        android:padding="5dp"
+        android:inputType="text"
+        android:id="@+id/patregnmee"
+        android:drawableStart="@drawable/ic_people_black_24dp"
+        android:textSize="20dp"
+        android:drawablePadding="10dp"
+
+        android:drawableLeft="@drawable/ic_people_black_24dp" />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Email"
+        android:inputType="textEmailAddress"
+        android:id="@+id/patregeml"
+        android:layout_marginTop="230dp"
+        android:textSize="15dp"
+        android:drawableStart="@drawable/ic_email_black_24dp"
+        android:padding="5dp"
+        android:drawablePadding="10dp"
+        android:drawableLeft="@drawable/ic_email_black_24dp" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Phone"
+        android:id="@+id/patregphne"
+        android:layout_marginTop="270dp"
+        android:textSize="15dp"
+        android:padding="5dp"
+        android:inputType="number"
+        android:drawableStart="@drawable/ic_phone_black_24dp"
+
+        android:drawablePadding="10dp"
+        android:drawableLeft="@drawable/ic_phone_black_24dp" />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Date of birth"
+        android:id="@+id/patregdob"
+        android:layout_marginTop="310dp"
+        android:textSize="15dp"
+        android:padding="5dp"
+        android:editable="false"
+        android:drawableStart="@drawable/ic_date_range_black_24dp"
+        android:drawablePadding="10dp"
+        android:drawableLeft="@drawable/ic_date_range_black_24dp" />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Age"
+            android:id="@+id/patregage"
+            android:layout_marginTop="350dp"
+            android:textSize="15dp"
+            android:padding="5dp"
+
+            android:drawableStart="@drawable/ic_filter_1_black_24dp"
+            android:drawableLeft="@drawable/ic_filter_1_black_24dp"
+            android:drawablePadding="10dp"
+            android:editable="false"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Password"
+        android:id="@+id/patregpswd"
+        android:layout_marginTop="400dp"
+        android:textSize="15dp"
+
+        android:padding="5dp"
+        android:drawableStart="@drawable/ic_lock_black_24dp"
+        android:drawablePadding="10dp"
+        android:drawableLeft="@drawable/ic_lock_black_24dp" />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/buttn"
+        android:layout_marginLeft="128dp"
+        android:layout_marginTop="450dp"
+        android:text="submit "
+        android:fontFamily="sans-serif-condensed"
+        android:textSize="36dp"
+        android:id="@+id/Registerbtnn"/>
+
+
+</FrameLayout>

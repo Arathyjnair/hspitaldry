@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragment_view_patient_deatils">
+
+    <!-- TODO: Update blank fragment layout -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:background="@drawable/doc"
+            android:layout_marginTop="30dp"
+            android:layout_marginLeft="135dp"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="View patient Details"
+                android:textSize="37dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="50dp"
+                android:textStyle="bold"
+                android:textColor="#ec6969"
+                android:fontFamily="cursive"
+                />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="6dp"
+                android:textSize="20dp"
+                android:paddingLeft="10dp"
+                android:id="@+id/vwpatid"
+                android:hint="patient id "/>
+        </LinearLayout>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:textSize="20dp"
+            android:paddingLeft="4dp"
+            android:id="@+id/vwpatnme"
+            android:hint="Patient name "/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:textSize="20dp"
+            android:paddingLeft="10dp"
+            android:id="@+id/vwpatdob"
+            android:hint="Patient dob "/>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:id="@+id/vwpatage"
+            android:textSize="20dp"
+            android:paddingLeft="10dp"
+            android:hint="Patient age "/>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:textSize="20dp"
+            android:id="@+id/vwpateml"
+            android:paddingLeft="10dp"
+            android:hint="Patient Email "/>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:textSize="20dp"
+            android:paddingLeft="10dp"
+            android:id="@+id/vwpatphne"
+            android:hint="Patient phone "/>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:textSize="20dp"
+            android:paddingLeft="10dp"
+            android:id="@+id/vwpatpswd"
+            android:hint="Patient password "/>
+
+    </LinearLayout>
+
+
+
+
+</FrameLayout>

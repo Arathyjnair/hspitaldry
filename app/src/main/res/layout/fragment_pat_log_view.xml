@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:orientation="vertical"
+    tools:context=".pat_log_view">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
+        android:id="@+id/tt1"
+        android:text=""
+        android:textSize="20dp"
+        android:textColor="#321aba"/>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:id="@+id/tt2"
+        android:layout_marginTop="120dp"
+        android:textSize="20dp"
+        android:textColor="#321aba"/>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:id="@+id/tt3"
+        android:textSize="20dp"
+        android:layout_marginTop="180dp"
+        android:textColor="#321aba"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:id="@+id/tt4"
+        android:textSize="20dp"
+        android:layout_marginTop="240dp"
+        android:textColor="#321aba"/>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:id="@+id/tt5"
+        android:layout_marginTop="300dp"
+        android:textSize="20dp"
+        android:textColor="#321aba"/>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:id="@+id/tt6"
+        android:layout_marginTop="360dp"
+        android:textSize="20dp"
+        android:textColor="#321aba"/>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:id="@+id/tt7"
+        android:layout_marginTop="420dp"
+        android:textSize="20dp"
+        android:textColor="#321aba"/>
+
+</FrameLayout>
